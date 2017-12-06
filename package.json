@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "node start_db.js& node test.js",
+    "test:win32": "start /b node start_db.js && node test.js"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "mongodb": "^2.2.31",
+    "tape": "^4.8.0"
+  }
+}
